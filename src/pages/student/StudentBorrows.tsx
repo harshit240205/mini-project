@@ -202,14 +202,14 @@ interface BorrowedBook {
 const StudentBorrows = () => {
   const [borrowedBooks, setBorrowedBooks] = useState<BorrowedBook[]>([
     {
-      id: '1',
-      title: 'To Kill a Mockingbird',
-      author: 'Harper Lee',
-      borrowDate: '2023-04-10',
-      dueDate: '2023-05-10',
-      isOverdue: true,
-      category: 'Fiction'
-    },
+            id: '1',
+            title: 'To Kill a Mockingbird',
+            author: 'Harper Lee',
+            borrowDate: '2023-04-10',
+            dueDate: '2023-05-10',
+            isOverdue: true,
+             coverImage: 'https://images.unsplash.com/photo-1629992101753-56d196c8aabb?q=80&w=1890&auto=format&fit=crop&ixlib=rb-4.0.3'
+          },
     {
       id: '2',
       title: 'The Great Gatsby',
